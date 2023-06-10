@@ -1,16 +1,16 @@
 import React from 'react';
-import SearchBar from './searchBar/searchBar';
+import SearchBar from '../SearchBar/SearchBar';
+import CartButton from '../CartButton/CartButton';
 
 import './Header.css';
-import CartButton from './cartButton/cartButton';
 
 
 function Header() {
   return (
     <header className="header">
       <div className="container">
-        <SearchBar/>
-        <CartButton/>
+        <SearchBar />
+        <CartButton />
       </div>
     </header>
   );
